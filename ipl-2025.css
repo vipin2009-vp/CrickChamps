@@ -26,6 +26,7 @@ body {
 .hero-content {
     max-width: 800px;
     z-index: 2;
+    height:100%;
 }
 
 h1 {
@@ -36,13 +37,14 @@ h1 {
 
 p {
     font-size: 1.2rem;
-    margin-bottom: 30px;
+    margin:-30px;
 }
 
 .cta-links {
     display: flex;
     gap: 20px;
     justify-content: center;
+    margin-top: 160px;
 }
 
 .cta-btn, .cta-whatsapp {
